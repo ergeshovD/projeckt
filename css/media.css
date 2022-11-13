@@ -1,0 +1,819 @@
+.container {
+    width: 90%;
+}
+
+@media (max-width: 1140px) {
+    #java .java--lav img {
+        width: 1080px;
+    }
+
+    #footer .footer--ion {
+        margin-left: 430px;
+    }
+
+    .main {
+        margin-left: -300px;
+    }
+}
+
+/*______________________________________*/
+
+@media (max-width: 1024px) {
+    #java .java--text h1 {
+        font-size: 26px;
+        margin-left: 55px;
+    }
+
+    #java .java--loader {
+        width: 120px;
+        height: 1px;
+    }
+
+    #java .java--text p {
+        margin-left: 55px;
+    }
+
+    #java .java--lav p {
+        padding: 29px 0;
+    }
+
+    #java .java--lav img {
+        width: 955px;
+    }
+
+    #phone .phone--top {
+        font-size: 125px;
+    }
+
+    #nav .nav .loader6 {
+        margin: 55px 0;
+    }
+
+    #nav .nav--blocks {
+        padding: 35px 0;
+    }
+
+    .animation {
+        margin-left: -230px;
+    }
+
+    #footer .footer--text {
+        margin-top: -100px;
+    }
+
+    #footer .footer--ion {
+        margin-left: 380px;
+    }
+
+    #footer .footer--aino {
+        margin-left: 310px;
+    }
+
+
+}
+
+/*---------------------------------------*/
+
+@media (max-width: 992px) {
+
+    #java .java--lav img {
+        width: 930px;
+    }
+
+    #java .java--text p {
+        margin-left: 139px;
+    }
+
+    #java .java--text h1 {
+        margin-left: 150px;
+    }
+
+    #phone .phone h1 {
+        padding: 55px 0;
+    }
+
+    #phone .phone--top {
+        margin: -130px 0;
+        flex-direction: column;
+    }
+
+    #java .java--lav img {
+        width: 925px;
+    }
+
+    #footer .footer--web p, #footer .footer--web a {
+        font-size: 9pt;
+        color: #333;
+    }
+
+    #footer .footer--web .face {
+        width: 268px;
+        height: 200px;
+    }
+
+    #phone .phone--block {
+        height: 480px;
+    }
+
+    #nav .nav--blocks {
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+    }
+
+    #nav .nav--details {
+        width: 258px;
+        height: 170px;
+    }
+
+    #footer .footer--ion {
+        margin-left: 365px;
+    }
+
+
+}
+
+/*________________________________________*/
+
+@media (max-width: 768px) {
+    #java .java--lav img {
+        width: 725px;
+    }
+
+    #footer .footer--ion {
+        width: 150px;
+        margin-left: 290px;
+        font-size: 27px;
+        height: 0;
+    }
+
+    #footer .footer--web .face {
+        width: 200px;
+        height: 200px;
+    }
+
+    #footer .footer--web p, #footer .footer--web a {
+        font-size: 8pt;
+    }
+
+    #footer .footer--aino {
+        margin-left: 200px;
+    }
+
+    #nav .nav--details {
+        width: 210px;
+        height: 155px;
+    }
+
+    #nav .nav--details h1 {
+        font-size: 20px;
+    }
+
+    #git .git--logo-twu {
+        display: flex;
+        width: 700px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #git .git--logo {
+        display: flex;
+        width: 700px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #java .java--lav p {
+        padding: 75px 0;
+    }
+
+    #java .java--text p {
+        display: none;
+    }
+
+    #java .java--pro {
+        width: 438px;
+        height: 442px;
+        border: 30px solid #C89AFC;
+        margin-left: 105px;
+    }
+
+    #java .java--text h1 {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    #header .header--nav {
+        display: none;
+    }
+
+    #header .header--block button {
+        display: none;
+    }
+}
+
+/*________________________________________*/
+
+@media (max-width: 576px) {
+    #header .header--lorem {
+        padding: 25% 0;
+        font-size: 20px;
+    }
+
+    #section .section .hero p {
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    #section .section .hero h1 {
+        font-size: 15px;
+    }
+
+    #section .section .hero button {
+        color: white;
+        height: 34px;
+        width: 108px;
+    }
+
+    .java--pro img {
+        margin-left: -57px;
+    }
+
+    #java .java--pro {
+        width: 354px;
+        height: 413px;
+        margin-left: 50px;
+    }
+
+    #java .java--lav p {
+        padding: 100px 0;
+    }
+
+    #java .java--lav img {
+        width: 540px;
+    }
+
+    #git .git--loader h1 {
+        font-size: 27px;
+    }
+
+    #git .git--logo {
+        width: 585px;
+        margin-left: -55px;
+    }
+
+    #git .git--logo-twu {
+        width: 585px;
+        margin-left: -55px;
+    }
+
+    #nav .nav--details h1 {
+        font-size: 19px;
+    }
+
+    #nav .nav--details {
+        width: 158px;
+        height: 150px;
+    }
+
+    .hro img {
+        width: 153px;
+        height: 150px;
+        margin-left: 20px;
+    }
+
+    #never .never--block button {
+        margin-left: 20px;
+    }
+
+    #footer .footer--aino {
+        margin-left: 100px;
+    }
+
+    #footer .footer--web .face {
+        width: 155px;
+        height: 200px;
+    }
+
+    #footer .footer--web p, #footer .footer--web a {
+        font-size: 6pt;
+    }
+
+    #footer .footer--ion {
+        margin-left: 207px;
+        font-size: 20px;
+    }
+
+}
+
+/*_________________________________________*/
+
+@media (max-width: 450px) {
+    #java .java--pro {
+        width: 363px;
+        height: 414px;
+        margin-left: -5px;
+    }
+
+    #git .git--loader h1 {
+        font-size: 19px;
+    }
+
+    #java .java--lav p {
+        padding: 125px 0;
+        font-size: 15px;
+    }
+
+    #java .java--long h1 {
+        font-size: 25px;
+    }
+
+    #java .java--lav img {
+        width: 425px;
+        margin-top: -10px;
+
+    }
+
+    #java {
+        padding: 0 0;
+    }
+
+    #git .git--logo-twu {
+        display: none;
+    }
+
+    #git .git--hr {
+        display: none;
+    }
+
+    #git .git--logo {
+        width: 510px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 375px;
+        margin-left: -83px;
+    }
+
+    #nav .nav--details {
+        width: 125px;
+        height: 145px;
+    }
+
+    #nav .nav--details h1 {
+        font-size: 18px;
+    }
+
+    #never .never--anima h1 {
+        font-size: 25px;
+        margin-left: 95px;
+    }
+
+    #never .never--block {
+        padding: 0 0;
+    }
+
+    .hro img {
+        width: 122px;
+        height: 120px;
+    }
+
+    #never .never--block button {
+        margin-left: 5px;
+    }
+
+    #footer .footer h1 {
+        font-size: 32px;
+    }
+
+    #footer .footer--aino {
+        margin-left: 45px;
+    }
+
+    #footer .footer--web .face {
+        width: 125px;
+        height: 185px;
+    }
+
+    #footer .footer--web p, #footer .footer--web a {
+        font-size: 5pt;
+    }
+
+    #footer .footer--web .face.face2 {
+        background: none;
+    }
+
+    #footer .footer--web .face {
+        width: 125px;
+        height: 185px;
+    }
+
+    #footer .footer--ion {
+        margin-left: 171px;
+        font-size: 18px;
+        margin-top: -42px;
+    }
+}
+
+/*_________________________________________*/
+
+@media (max-width: 414px) {
+    #header .header--lorem {
+        padding: 52% 0;
+        font-size: 14px;
+    }
+
+    #section .section .hero p {
+        font-size: 8px;
+        line-height: 20px;
+    }
+
+    #section .section .hero p {
+        font-size: 8px;
+    }
+
+    #java .java--pro {
+        width: 324px;
+        margin-left: -8px;
+    }
+
+    #java .java--lav img {
+        width: 390px;
+    }
+
+    #git .git--loader h1 {
+        font-size: 17px;
+        padding: 10px 0;
+    }
+
+    #nav .nav--tel p {
+        font-size: 15px;
+    }
+
+    #nav .nav--details {
+        width: 115px;
+        height: 115px;
+    }
+
+    #nav .nav--details h1 {
+        font-size: 14px;
+    }
+
+    .hro img {
+        width: 106px;
+        height: 105px;
+    }
+
+    #never .never--block button {
+        margin-left: 10px;
+        width: 102px;
+    }
+
+    #footer .footer h1 {
+        font-size: 31px;
+    }
+
+    #footer .footer p {
+        font-size: 15px;
+    }
+
+    #footer .footer--web .face {
+        width: 115px;
+        height: 170px;
+    }
+
+    #footer .footer--web p, #footer .footer--web a {
+        font-size: 3pt;
+    }
+
+    #footer .footer--ion {
+        margin-left: 150px;
+    }
+
+    #git .git--logo {
+        width: 495px;
+        margin-left: -86px;
+    }
+
+    .java--pro img {
+        margin-left: -75px;
+    }
+
+    #git .git--logo {
+        margin-left: -105px;
+    }
+}
+
+/*________________________________________*/
+
+@media (max-width: 400px) {
+    #java .java--lav img {
+        width: 375px;
+    }
+
+    #phone .phone h1 {
+        font-size: 20px;
+        padding: 55px 0;
+    }
+
+    #git .git--loader h1 {
+        font-size: 16px;
+    }
+
+    #git .git--logo {
+        margin-left: -120px;
+    }
+
+    #nav .nav--tel p {
+        font-size: 14px;
+    }
+
+    #nav .nav--details {
+        width: 107px;
+        height: 115px;
+    }
+
+    #nav .nav--details h1 {
+        font-size: 12px;
+    }
+
+    #never .never--anima h1 {
+        font-size: 23px;
+    }
+
+    #footer .footer h1 {
+        font-size: 25px;
+    }
+
+    #footer .footer p {
+        font-size: 13px;
+    }
+
+    #footer .footer--aino {
+        margin-left: 20px;
+    }
+
+    #footer .footer--ion {
+        font-size: 25px;
+    }
+
+    .java--pro img {
+        margin-left: -90px;
+    }
+}
+
+/*_________________________________________*/
+
+
+@media (max-width: 380px) {
+    #header .header--lorem {
+        font-size: 12px;
+    }
+
+    #section .section .hero h1 {
+        font-size: 12px;
+    }
+
+    #section .section .hero p {
+        font-size: 7px;
+    }
+
+    #section .section .hero button {
+        height: 28px;
+        width: 86px;
+    }
+
+    .java--pro img {
+        margin-left: -10px;
+        width: 320px;
+    }
+
+    #java .java--pro {
+        height: 285px;
+        width: 290px;
+    }
+
+    #java .java--lav p {
+        padding: 140px 0;
+        font-size: 13px;
+    }
+
+    #java .java--lav img {
+        width: 355px;
+        margin-top: -46px;
+    }
+
+    #phone .phone--top {
+        margin: -170px 0;
+    }
+
+    #git .git--logo {
+        margin-left: -135px;
+    }
+
+    #git .git--loader h1 {
+        font-size: 15px;
+    }
+
+    #nav .nav--tel p {
+        font-size: 13px;
+    }
+
+    #footer .footer--web .face {
+        width: 105px;
+        height: 155px;
+    }
+
+    #footer .footer--web p, #footer .footer--web a {
+        font-size: 2pt;
+        color: cornflowerblue;
+    }
+
+    #footer .footer--ion {
+        font-size: 27px;
+        margin-left: 135px;
+    }
+
+}
+
+/*_________________________________________*/
+
+@media (max-width: 375px) {
+    #java .java--lav img {
+        width: 347px;
+    }
+
+    #phone .phone h1 {
+        font-size: 20px;
+    }
+
+    .phone--top p {
+        padding: -3px 0;
+        font-size: 13px;
+    }
+
+    #git .git--logo {
+        margin-left: -142px;
+    }
+
+    #never .never--anima h1 {
+        font-size: 22px;
+    }
+
+    .hro img {
+        width: 100px;
+        height: 102px;
+    }
+
+}
+
+/*________________________________________*/
+
+@media (max-width: 360px) {
+    #java .java--lav img {
+        width: 335px;
+    }
+
+    #phone .phone h1 {
+        font-size: 18px;
+    }
+
+    #git .git--logo {
+        margin-left: -155px;
+    }
+
+    #nav .nav--details h1 {
+        font-size: 11px;
+    }
+
+    #never .never--anima h1 {
+        font-size: 20px;
+    }
+
+    #footer .footer--web .face {
+        width: 99px;
+        height: 145px;
+    }
+
+    #footer .footer--web p, #footer .footer--web a {
+        font-size: 1pt;
+        color: cornflowerblue;
+    }
+
+    #footer .footer--web p, #footer .footer--web a {
+        font-size: 0pt;
+    }
+}
+
+/*______________________________________*/
+
+@media (max-width: 320px) {
+    #header .header--lorem {
+        font-size: 11px;
+    }
+
+    #section .section .hero p {
+        font-size: 3px;
+        max-width: 41px;
+    }
+
+    #java .java--pro {
+        width: 235px;
+    }
+
+    .java--pro img {
+        margin-left: -25px;
+        width: 289px;
+    }
+
+    #java .java--lav p {
+        padding: 155px 0;
+        font-size: 11px;
+    }
+
+    #java .java--long h1 {
+        font-size: 20px;
+    }
+
+    #java .java--lav img {
+        width: 290px;
+    }
+
+    .phone h1 {
+        font-size: 16px;
+    }
+
+    #phone .phone--top p {
+        font-size: 11px;
+    }
+
+    #git .git--logo {
+        width: 200px;
+        margin-left: 16px;
+    }
+
+    #nav .nav--details h1 {
+        font-size: 8px;
+    }
+
+    #nav .nav--details {
+        width: 87px;
+        height: 90px;
+    }
+
+    #never .never--anima h1 {
+        font-size: 18px;
+    }
+
+    .hro img {
+        width: 75px;
+        height: 75px;
+    }
+
+    #never .never--block h1 {
+        font-size: 18px;
+        line-height: 150%;
+    }
+
+    #never .never--block p {
+        font-size: 15px;
+    }
+
+    #never .never--block button {
+        margin-left: 3px;
+        height: 40px;
+        width: 94px;
+    }
+
+    #footer .footer h1 {
+        font-size: 23px;
+    }
+
+    #footer .footer p {
+        font-size: 11px;
+    }
+
+    #footer .footer--aino {
+        margin-left: -10px;
+    }
+
+    #footer .footer--web .face {
+        width: 87px;
+    }
+
+    #footer .footer--text {
+        margin-top: -55px;
+        font-size: 25px;
+    }
+
+    #footer .footer--ion {
+        font-size: 26px;
+        margin-left: 123px;
+    }
+}
+
+/*_______________________________________*/
+
+/*# sourceMappingURL=media.css.map */
